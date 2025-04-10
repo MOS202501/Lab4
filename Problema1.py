@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Problema 1 - Lab 4
-Implementación del Método Simplex Estándar
-"""
-
 import numpy as np
 from tabulate import tabulate
 import matplotlib.pyplot as plt

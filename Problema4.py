@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Problema 4 - Lab 4
-Análisis de rendimiento comparativo entre nuestro método Simplex y solvers profesionales
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 import time

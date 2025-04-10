@@ -255,15 +255,6 @@ def sensitivity_analysis(tableau, basic_vars):
 
 def main():
     try:
-        try:
-            import tabulate
-        except ImportError:
-            print("Instalando la biblioteca 'tabulate'...")
-            import subprocess
-            subprocess.check_call(["pip", "install", "tabulate"])
-            print("Biblioteca 'tabulate' instalada correctamente.")
-
-        # Ejecutar el método simplex
         simplex_method()
     except Exception as e:
         print(f"Error: {e}")
